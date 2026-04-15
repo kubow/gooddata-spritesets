@@ -1,0 +1,26 @@
+{
+  "name": "gooddata-spritesets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build and publish MapLibre sprite sets for GoodData geo charts via GitHub Pages.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build-sprites.mjs",
+    "verify": "node scripts/verify-dist.mjs",
+    "preview": "node scripts/preview-dist.mjs"
+  },
+  "keywords": [
+    "gooddata",
+    "maplibre",
+    "sprites",
+    "github-pages"
+  ],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "sharp": "^0.34.2"
+  }
+}

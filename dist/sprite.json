@@ -1,0 +1,26 @@
+{
+  "restaurant": {
+    "width": 32,
+    "height": 32,
+    "x": 0,
+    "y": 0,
+    "pixelRatio": 1,
+    "visible": true
+  },
+  "store": {
+    "width": 32,
+    "height": 32,
+    "x": 34,
+    "y": 0,
+    "pixelRatio": 1,
+    "visible": true
+  },
+  "warehouse": {
+    "width": 32,
+    "height": 32,
+    "x": 68,
+    "y": 0,
+    "pixelRatio": 1,
+    "visible": true
+  }
+}
