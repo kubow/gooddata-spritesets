@@ -1,0 +1,30 @@
+scripts/build-sprites.mjs
+  0a695b12f317eed6 319-320,324,326-327
+dist/sprite
+  0a695b12f317eed6 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "76384f3c3bb226f038849fea59e1f28745ceef71",
+  "prompts": {
+    "0a695b12f317eed6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a0ed9610-68e9-4872-823a-dde1e4494f6a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "kubow",
+      "messages": [],
+      "total_additions": 39,
+      "total_deletions": 1,
+      "accepted_lines": 39,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_48e40f5ab776de": {
+      "author": "kubow"
+    }
+  }
+}
