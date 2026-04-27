@@ -316,11 +316,15 @@ async function writeOutputs(layout) {
   const spriteJson = createSpriteMetadata(layout.placements, 1);
   const sprite2xJson = createSpriteMetadata(layout.placements, 2);
 
+  const spriteJsonContent = JSON.stringify(spriteJson, null, 2) + "\n";
+
   await Promise.all([
     fs.writeFile(path.join(DIST_DIR, "sprite.png"), spritePng),
     fs.writeFile(path.join(DIST_DIR, "sprite@2x.png"), sprite2xPng),
-    fs.writeFile(path.join(DIST_DIR, "sprite.json"), JSON.stringify(spriteJson, null, 2) + "\n"),
+    fs.writeFile(path.join(DIST_DIR, "sprite.json"), spriteJsonContent),
     fs.writeFile(path.join(DIST_DIR, "sprite@2x.json"), JSON.stringify(sprite2xJson, null, 2) + "\n"),
+    // GoodData validates the bare base URL before appending .json/.png
+    fs.writeFile(path.join(DIST_DIR, "sprite"), spriteJsonContent),
     fs.writeFile(
       path.join(DIST_DIR, "index.html"),
       createPreviewHtml(layout.placements.map((icon) => icon.name)),
