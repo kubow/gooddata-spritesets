@@ -15,10 +15,18 @@
     "pixelRatio": 2,
     "visible": true
   },
-  "warehouse": {
+  "subway": {
     "width": 64,
     "height": 64,
     "x": 136,
+    "y": 0,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "warehouse": {
+    "width": 64,
+    "height": 64,
+    "x": 204,
     "y": 0,
     "pixelRatio": 2,
     "visible": true
