@@ -1,0 +1,29 @@
+dist/sprite@2x.json
+  0a695b12f317eed6 18,25-29
+dist/sprite.json
+  0a695b12f317eed6 18,25-29
+icons/subway.svg
+  0a695b12f317eed6 1-4
+dist/index.html
+  0a695b12f317eed6 116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "1b02714dbd3a5e761c594e8120f1657cc6613868",
+  "prompts": {
+    "0a695b12f317eed6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a0ed9610-68e9-4872-823a-dde1e4494f6a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "kubow",
+      "messages": [],
+      "total_additions": 23,
+      "total_deletions": 3,
+      "accepted_lines": 23,
+      "overriden_lines": 0
+    }
+  }
+}
